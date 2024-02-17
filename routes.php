@@ -2,6 +2,11 @@
 
 return [
     "index" => "HomeController@index",
+     
+    //docker status
+    "get_docker_status" => "DockerController@getStatus",
+
+
 
     // Tasks
     "runTask" => "TaskController@runTask",
